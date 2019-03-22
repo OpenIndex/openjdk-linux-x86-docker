@@ -30,6 +30,6 @@ RUN mkdir -p /openjdk-linux-x86 \
 USER build
 WORKDIR /openjdk-linux-x86
 RUN git clone https://github.com/OpenIndex/openjdk-linux-x86.git /openjdk-linux-x86 \
-&& git checkout jdk11
+&& git checkout jdk12
 
 ENTRYPOINT ["/usr/bin/linux32", "--", "/openjdk-linux-x86/build.sh"]

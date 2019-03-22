@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-DOCKER_IMAGE="openjdk11-linux-x86"
-DOCKER_CONTAINER="build-openjdk11-linux-x86"
+DOCKER_IMAGE="openjdk12-linux-x86"
+DOCKER_CONTAINER="build-openjdk12-linux-x86"
 
 set -e
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
